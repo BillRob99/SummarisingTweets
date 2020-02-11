@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ViewSet"></activity>
+        <activity android:name=".SelectDataParameters"></activity>
+        <activity android:name=".ViewSet" />
         <activity android:name=".AddAccounts" />
         <activity android:name=".CreateSet" />
         <activity android:name=".ViewSets" />
