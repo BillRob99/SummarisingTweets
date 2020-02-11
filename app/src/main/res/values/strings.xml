@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Summarising Tweets</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="view_sets">View Sets of Accounts</string>
+    <string name="view_accounts">View Accounts Followed</string>
+    <string name="view_timeline">View Timeline</string>
+    <string name="twitter">Twitter</string>
+    <string name="create_new_set">Create New Set</string>
+    <string name="enter_name_here">Enter Name Here</string>
+    <string name="create">Create</string>
+    <string name="add_accounts">Add Accounts</string>
+    <string name="view_data">View Data</string>
+    <string name="done">Done</string>
+    <string name="set_file_names_file">SetFilenames.txt</string>
+</resources>
