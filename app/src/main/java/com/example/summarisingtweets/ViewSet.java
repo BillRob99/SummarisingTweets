@@ -123,4 +123,11 @@ public class ViewSet extends AppCompatActivity {
         editor.commit();
     }
 
+    public void viewData(View v) {
+        Intent intent = new Intent(this, SelectDataParameters.class);
+        intent.putExtra("Set", set);
+        intent.putExtra("Twitter", twitter);
+        startActivity(intent);
+    }
+
 }

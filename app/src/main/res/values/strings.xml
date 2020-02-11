@@ -12,4 +12,5 @@
     <string name="view_data">View Data</string>
     <string name="done">Done</string>
     <string name="set_file_names_file">SetFilenames.txt</string>
+    <string name="select_parameters">Select Parameters</string>
 </resources>
