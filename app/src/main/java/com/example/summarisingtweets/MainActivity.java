@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         toolBar.setTitleTextColor(0xFFFFFFFF);
         setSupportActionBar(toolBar);
 
-        final ImageView profileImageView = findViewById(R.id.profilePicture);
+        final ImageView PROFILE_IMAGE_VIEW = findViewById(R.id.profilePicture);
 
         //Creates a new Twitter instance.
         twitter = new TwitterFactory().getInstance();
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     long userID = twitter.getId();
                     User currentUser = twitter.showUser(userID);
                     String profilePicURL = currentUser.getOriginalProfileImageURL();
-                    new DownloadProfilePicTask(profileImageView).execute(profilePicURL);
+                    new DownloadProfilePicTask(PROFILE_IMAGE_VIEW).execute(profilePicURL);
                 } catch (TwitterException e) {
                     Log.e("Error", e.toString());
                 }

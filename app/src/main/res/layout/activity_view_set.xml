@@ -59,10 +59,11 @@
                     android:text="@string/add_accounts" />
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnViewData"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/view_data"
-                    android:id="@+id/btnViewData"/>
+                    android:onClick="viewData"
+                    android:text="@string/view_data" />
 
             </LinearLayout>
         </LinearLayout>

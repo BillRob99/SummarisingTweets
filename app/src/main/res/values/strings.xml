@@ -12,5 +12,13 @@
     <string name="view_data">View Data</string>
     <string name="done">Done</string>
     <string name="set_file_names_file">SetFilenames.txt</string>
-    <string name="select_parameters">Select Parameters</string>
+    <string name="select_start_date">Select Start Date</string>
+    <string name="chart_type">Chart Type:</string>
+    <string name="number_of_elements">Number of elements in chart:</string>
+    <string name="select_chart_type">Select Chart Type</string>
+    <string-array name="charts">
+        <item>Bar Chart</item>
+        <item>Pie Chart</item>
+        <item>Table</item>
+    </string-array>
 </resources>
